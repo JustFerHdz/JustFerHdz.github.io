@@ -1,0 +1,89 @@
+.navbar-custom {
+  background-color: #130634;
+  min-height: 50px;
+}
+.navbar-custom .navbar-nav .nav-link {
+  color: #7a49c5;
+}
+.navbar-custom .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+.navbar-custom .navbar-brand img {
+  height: 50px;
+  margin-right: 10px;
+}
+.navbar-custom .navbar-toggler-text {
+  color: #7a49c5; /* Color del texto del botón de navegación en el modo colapsado */
+}
+.navbar-custom .navbar-toggler {
+  border-color: #7a49c5; /* Color del borde del botón de navegación en el modo colapsado */
+}
+.navbar-custom .navbar-nav .nav-item.active .nav-link,
+.navbar-custom .navbar-nav .nav-item:focus .nav-link {
+  background-color: #ffffff; /* Color de fondo del botón activo/enfocado */
+  color: #130634; /* Color del texto del botón activo/enfocado */
+}
+
+body {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+@media (max-width: 992px) {
+	body {
+	  padding-top: 75px;
+	}
+}
+
+.footer-bar {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: auto;
+}
+.footer-bar img {
+  max-height: 200px;
+  width: auto;
+}
+
+/* Estilo para el contenedor */
+.container p, .container h1, .container h2, .container h3, .container h4, .container h5, .container h6 {
+    font-family: 'Arial', sans-serif; /* Fuente del texto */
+	color: #333; /* Color del texto */
+    line-height: 1.6; /* Altura de línea */
+}
+
+/* Estilo para los títulos dentro del contenedor */
+.container h1 {
+    font-size: 3rem; /* Tamaño del título h1 */
+	color: #7a49c5; /* Color del texto */
+}
+
+.container h2 {
+    font-size: 2rem; /* Tamaño del título h2 */
+	color: #000; /* Color del texto */
+}
+
+.container h3 {
+    font-size: 1.8rem; /* Tamaño del título h3 */
+}
+
+.container h4 {
+    font-size: 1.5rem; /* Tamaño del título h4 */
+}
+
+.container h5 {
+    font-size: 1.2rem; /* Tamaño del título h5 */
+}
+
+.container h6 {
+    font-size: 1rem; /* Tamaño del título h6 */
+}
+
+.container p {
+    font-size: 1rem; /* Tamaño del título h6 */
+}
